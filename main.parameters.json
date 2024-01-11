@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworkAddressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "firstSubnetAddressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "secondSubnetAddressPrefix": {
+            "value": "10.0.1.0/24"
+        },
+        "publicIPAddressSkuName": {
+            "value": "Standard"
+        },
+        "vmSize": {
+            "value": "Standard_B1s"
+        },
+        "virtualMachineManagedDiskStorageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "adminUsername": {
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/db727eda-5f15-499f-b5ee-1f1d46d99f23/resourceGroups/VnetLabEUS2/providers/Microsoft.KeyVault/vaults/VnetLabKeyValut"
+                },
+                "secretName": "adminUsername"
+            }
+        },
+        "adminPassword": {
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/db727eda-5f15-499f-b5ee-1f1d46d99f23/resourceGroups/VnetLabEUS2/providers/Microsoft.KeyVault/vaults/VnetLabKeyValut"
+                },
+                "secretName": "adminPassword"
+            }
+        }
+    }
+}
