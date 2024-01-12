@@ -23,7 +23,7 @@
         "adminUsername": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/db727eda-5f15-499f-b5ee-1f1d46d99f23/resourceGroups/VnetLabEUS2/providers/Microsoft.KeyVault/vaults/VnetLabKeyValut"
+                    "id": "/subscriptions/"subsriptionID"/resourceGroups/VnetLabEUS2/providers/Microsoft.KeyVault/vaults/VnetLabKeyValut"
                 },
                 "secretName": "adminUsername"
             }
@@ -31,7 +31,7 @@
         "adminPassword": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/db727eda-5f15-499f-b5ee-1f1d46d99f23/resourceGroups/VnetLabEUS2/providers/Microsoft.KeyVault/vaults/VnetLabKeyValut"
+                    "id": "/subscriptions/"subsriptionID"/resourceGroups/VnetLabEUS2/providers/Microsoft.KeyVault/vaults/VnetLabKeyValut"
                 },
                 "secretName": "adminPassword"
             }
