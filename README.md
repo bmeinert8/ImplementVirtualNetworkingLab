@@ -13,6 +13,6 @@ This is a lab of implementing a basic virtual network architecture to Azure thro
 -DNS Zone
 -Private DNS Zone
 
-##
+## Blog Post
 
 If you would like to read a deep dive of this lab build, I have documented the entire lab and process in detail on my [DevTo] blog post.
