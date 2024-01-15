@@ -48,8 +48,8 @@ var publicIPAddress1Name = 'Pip0eus2'
 var publicIPAddress2Name = 'Pip1eus2'
 var vm1NetworkInterfaceName = 'Nic0eus2'
 var vm2NetworkInterfaceName = 'Nic1eus2'
-var virtualMachine1Name = 'az104-04-vm1'
-var virtualMachine2Name = 'az104-04-vm2'
+var virtualMachine1Name = 'vm0eus2'
+var virtualMachine2Name = 'vm1eus2'
 var virtualMAchineImageReference =  {
   publisher: 'MicrosoftWindowsServer'
   offer: 'WindowsServer'
@@ -58,10 +58,10 @@ var virtualMAchineImageReference =  {
 }
 var osDisk1Name = 'vm1OSDisk'
 var osDisk2Name = 'vm2OSDisk'
-var dnsZoneName = 'contoso.org'
+var dnsZoneName = 'vnetlab.org'
 var vm1DNSRecordName = 'vm1'
 var vm2DNSRecordName = 'vm2'
-var privateDnsZoneName = 'contoso.org'
+var privateDnsZoneName = 'vnetlab.org'
 var virtualNetworkLinkName = 'vnet1-link'
 
 
